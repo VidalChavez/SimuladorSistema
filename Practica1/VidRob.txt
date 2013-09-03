@@ -1,0 +1,40 @@
+add A,B,B
+add #D9,B,A
+add $B4,B,A
+sub B,A,B
+sub #C4,B,A
+sub $C0,A,B
+or A,B,B
+or #DA,A,B
+or $9B,A,B
+and A,B,B
+and #57,B,A
+and $43,B,A
+xor B,A,B
+xor #37,B,A
+xor $57,A,B
+not A
+not $E9
+mul B,A
+mul #C4,A
+mul $56,B
+dec B
+dec $BA
+load A,B
+load #AA,A
+load $57,B
+store A,B
+store #C8,B
+store $98,B
+bra A
+bra #7A
+bra $7A
+bnz A,B
+bnz #DD,B
+bnz $8C,A
+dbnz A,B
+dbnz #2E,B
+dbnz $F6,B
+rts
+nop
+halt

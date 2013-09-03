@@ -1,0 +1,28 @@
+add A,B,A
+add #7A,A,B
+add $F5,B,A
+sub B,B,B
+sub #23,A,B
+sub $53,B,B
+or B,A,B
+or #10,B,A
+or $82,A,A
+and A,A,A
+and #FF,B,A
+and $14,B,B
+xor A,A,A
+xor #FF,B,A
+xor $14,B,B
+not A
+not $7F
+mul A,B
+mul #FF,B
+mul $A6,A
+not B
+not $35
+load B,A
+load #23,B
+load $54,A
+rts
+nop
+halt
